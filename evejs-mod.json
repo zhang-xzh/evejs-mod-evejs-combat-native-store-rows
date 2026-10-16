@@ -1,0 +1,37 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "category": "玩法",
+  "changelog": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
+  "conflicts": [],
+  "delisted": false,
+  "description": "列举 NPC 装备/货舱时会复制整份数据，人一多就卡。修复后只取该 NPC 自己的数据。",
+  "displayName": "大规模战斗卡顿修复（NPC 数据重复复制）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows/releases/download/v1.0.0/evejs-combat-native-store-rows-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-combat-native-store-rows",
+  "publishedAt": "2026-10-16",
+  "readme": [
+    "列举 native NPC 的模块/货舱时会把整个集合克隆一遍，大规模战斗时卡顿。补丁只拷贝目标实体的行，行为不变。"
+  ],
+  "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
+  "requiresRestart": true,
+  "sha256": "76c050c234303b18a83434e751114e6ee1dde9457aff6ceb30d946982a18370a",
+  "sizeBytes": 5320,
+  "tags": [],
+  "version": "1.0.0"
+}
